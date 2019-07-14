@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Login</title>
+
+	<!-- =================================== -->
+	<!-- bootstrap and fontawesome libs -->
+	<link rel="icon" href="imgs/logo.png">
+
+	<link rel="stylesheet" type="text/css" href="../all/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../all/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<!-- =================================== -->
+</head>
+<body>
+
+	<section class="login-section">
+		<div class="blur">
+			<div class="container">
+				<div class="row ">
+					<div class="col-12  login-body">
+						<div class="row">
+							<div class="col-md-12  col-12">
+									<ul class="list-unstyled text-center social text-center">
+										<li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+										<li><a href="#"><i class="fab fa-google fa-2x"></i></a></li>
+									</ul>
+						  			<p class="text-center">or login to manage your account</p>
+							</div>
+							<div class="col-md-12 col-12 text-center">
+								<form action="" method="post">
+									 <div class="input-group mb-3">
+										  <div class="input-group-prepend">
+										    <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+										  </div>
+										  <input type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+										</div>
+
+										<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-unlock-alt"></i></span>
+											  </div>
+											  <input type="password" class="form-control" id="myinput" placeholder="password" aria-label="password" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="custom-control custom-checkbox">
+											  <input type="checkbox" class="custom-control-input" id="customCheck1" onclick="myFunction()">
+											  <label class="custom-control-label" for="customCheck1">Show password</label>
+											</div>
+											<button type="submit" class="btn btn-success">login</button>
+											<p id="new-account"><a href="register.html">or create a new account</a></p>
+									</form>
+							</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	</section>
+	<!-- End Login section  -->
+
+
+	<!-- start footer -->
+
+	<div class="footer">
+		<div class="footer1">
+	<div class="container-fluid">
+
+		<div class="container ">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>Location</h2><p>
+						 <div class="myframegmap">
+							 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6869.77098120458!2d31.499585689508443!3d30.580777809488445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7f0e4df8a651f%3A0xc3037f21ccf91db0!2z2K8uINin2LPYp9mF2Kkg2LPZhNmK2YU!5e0!3m2!1sar!2seg!4v1545475384438" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							 </p><br>
+						 </div>
+			</div>
+			<div class="col-sm-4">
+				<h2>Home</h2>
+				<p>
+					<i class="fa fa-home"></i>    <a href="home.html"> Home</a><br>
+					<i class="fa fa-user"></i>    <a href="#"> About Us</a><br>
+					<i class="fa fa-map-marker"></i>    <a href="../contact/contact.html"> Contact Us</a><br>
+					<i class="fa fa-briefcase"></i>    <a href="#"> Services</a><br>
+					<i class="fa fa-question-circle"></i>    <a href="#"> Term & Conditions</a><br><br>
+				</p>
+
+
+			</div>
+			<div class="col-sm-4 ">
+				<h2>Contact Us</h2>
+				<p >
+					<i class="fa fa-phone"></i>    <a href="#"> +0123456789</a><br>
+					<i class="fa fa-envelope"></i>    <a href="#"> supernova@gmail.com</a><br>
+					<i class="fa fa-map-marker"></i>     zagazig - Ali Zaki Toure
+				</p>
+				<br>
+			</div>
+		</div>
+			<div class="clear30"></div>
+	</div>
+	</div></div>
+
+	<div class="footer2">
+		<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="clear30"></div>
+				<div class="col-sm-12 text-center"><p><strong>Copyright © 2018-2020 All right reserved.</strong></p></div>
+				<div class="clear30"></div>
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+	</div>
+	<!-- end footer -->
+
+
+
+
+		 <!-- Start overlay loading sectionn -->
+		 <section class="load-overlay">
+
+		 	<div class='wrap'>
+			  <div class='angle'></div>
+			  <div class='angle'></div>
+			  <div class='angle'></div>
+			  <div class='angle'></div>
+			</div>
+			<svg version='1.1' xmlns='http://www.w3.org/2000/svg'>
+			  <defs>
+			    <filter id='goo'>
+			      <fegaussianblur in='SourceGraphic' result='blur' stddeviation='12'></fegaussianblur>
+			      <fecolormatrix in='blur' mode='matrix' result='goo' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9'></fecolormatrix>
+			      <fecomposite in2='goo' in='SourceGraphic' operator='atop'></fecomposite>
+			    </filter>
+			  </defs>
+			</svg>
+
+
+		 </section>
+
+		 <!-- End Section -->
+
+
+
+	<!-- Scripts and jquery files  -->
+	<!-- ================================== -->
+	<script type="text/javascript" src="../all/js/jquery-1.11.1.min-1.js"></script>
+	<script type="text/javascript" src="../all/js/jquery.nicescroll.min.js"></script>
+	 <script type="text/javascript" src="js/login.js"></script>
+
+     <!-- ================================= -->
+</body>
+</html>
